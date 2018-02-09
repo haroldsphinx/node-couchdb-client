@@ -1,0 +1,23 @@
+{
+  "name": "Node-CouchDb-Client",
+  "version": "1.0.0",
+  "description": "call this endpoint to get iso codes",
+  "main": "api.js",
+  "scripts": {
+    "start": "pm2 start api.js --name isocode-service"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Seal Charles || sealcharless77@gmail.com",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "https": "^1.0.0",
+    "nano": "^6.4.2",
+    "restify": "^4.3.0",
+    "unirest": "^0.5.1"
+  }
+}
