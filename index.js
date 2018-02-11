@@ -10,7 +10,7 @@ var nano = require("nano")('http://'+_config.couchdb.username+':'+_config.couchd
 // var nano = require("nano")(_config.couchdb.host+':'+_config.couchdb.port); 
  
 
-
+_config.couchdb.username
 
 var api_url = _config.app_name+_config.api._url+_config.api._version;
 
